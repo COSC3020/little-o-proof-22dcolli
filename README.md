@@ -25,6 +25,6 @@ $f(n)\in O(g(n)) \iff \exists c>0,n_0 >0, \forall n\ge n_0: f(n) \le c g(n)$
 
 Looking at the two side by side, I only notice two differences. the first being that the definition of $o$ has the portion $\forall c>0$ whereas $O$ has $\exists c>0$. Thinking about this, the statement for all by default implies that there exists which makes a point for $o$ including $O$.
 
-What I believe to be more important however, is that in $o$ there is a $<$ while in contrast, $O$ has a &\le&. When you add the "or equal to" portion to that end statement, it becomes more inclusive. My line of thought is that because the $O$ statement includes more with the $\le$ it proves that any $f(n)$ would be included in both $o$ and $O$.
+What I believe to be more important however, is that in $o$ there is a $<$ while in contrast, $O$ has a $\le$. When you add the "or equal to" portion to that end statement, it becomes more inclusive. My line of thought is that because the $O$ statement includes more with the $\le$ it proves that any $f(n)$ would be included in both $o$ and $O$.
 
 
