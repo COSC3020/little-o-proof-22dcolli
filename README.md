@@ -21,4 +21,8 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 The goal of this particular proof is to show that for any two functions $f(n)$ and $g(n)$, if $f(n)$ \in o(g(n))$ then $f(n)$ is also inculded within $O(g(n))$.
 
 To do this we can look at a formal definition of $O$
-$f(n)\in O(g(n)) \iff \exists c,n_0 >0, \forall n\ge n_0: f(n) \le c g(n)$
+$f(n)\in O(g(n)) \iff \exists c>0,n_0 >0, \forall n\ge n_0: f(n) \le c g(n)$
+
+Looking at the two side by side, I only notice two differences. the first being that the definition of $o$ has the portion $\forall c>0$ whereas $O$ has $\exists c>0$. Thinking about this, the statement for all by default implies that there exists which makes a point for $o$ including $O$.
+
+
